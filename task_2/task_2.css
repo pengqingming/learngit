@@ -1,0 +1,103 @@
+ body{
+ 	margin: 0;padding: 0;
+ 	background: #ccc;
+ }
+ p{
+ 	text-indent: 2em;
+ }
+ div{
+ 	margin: 10px; 
+ 	padding: 10px;
+ 	background: #fff;
+ }
+.head{
+	height: 50px;
+	background: #111;
+}
+.head ul{
+	float: right;
+}
+.head img{
+	float: left;
+}
+.head li{
+	float: left;
+	margin-right: 20px;
+}
+.head li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.second_article img{
+	margin-top: 10px;
+}
+figure{
+	width: 280px;
+	border: 1px solid #000;
+}
+figure img{
+	display: block;
+	margin: 10px;
+}
+figcaption{
+	text-align: center;
+}
+table{
+	width: 100%;
+	height: 100px;
+	line-height: 25px;
+	border-collapse: collapse;
+}
+table thead{
+	background: #000;
+	color: #fff;
+}
+table tfoot{
+	background: #eee;
+}
+
+.spanner h2{
+	border-left: 4px solid #444;
+	padding-left: 10px;
+
+}
+.spanner .field{
+	margin:0.75em;
+	padding: 0.75em 15%;
+}
+.spanner .row{
+	margin:0.5em 0;
+}
+.spanner .prompt{
+	font-size: 0.8em;
+	color: #ccc;
+	margin-left: 225px;
+}
+.spanner label{
+	display: inline-block;
+	padding: 3px 6px;
+	text-align: right;
+	width: 200px;
+	vertical-align: top;
+
+}
+
+.spanner button{
+	height: 40px;
+	width: 100%;
+	padding:0px,10px;
+	background-color: blue;
+	color: #fff;
+	border-radius: 10px;
+}
+.footer{
+	text-align: center;
+	font-size: 22px;
+	height: 50px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
